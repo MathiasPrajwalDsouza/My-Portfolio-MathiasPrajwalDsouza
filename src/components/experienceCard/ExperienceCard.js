@@ -32,6 +32,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
+      {cardInfo.logo && (
+        <img
+          src={cardInfo.logo}
+          alt={cardInfo.company + " logo"}
+          style={{ width: "50px", height: "50px", objectFit: "contain", marginBottom: "10px" }}
+        />
+      )}
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
