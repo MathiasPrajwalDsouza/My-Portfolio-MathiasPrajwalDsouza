@@ -36,7 +36,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <img
           src={cardInfo.logo}
           alt={cardInfo.company + " logo"}
-          style={{ width: "50px", height: "50px", objectFit: "contain", marginBottom: "10px" }}
+          style={{
+            width: "50px",
+            height: "50px",
+            objectFit: "contain",
+            marginBottom: "10px"
+          }}
         />
       )}
       <div style={{background: rgb(colorArrays)}} className="experience-banner">

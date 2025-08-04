@@ -20,7 +20,8 @@ const greeting = {
   subTitle: emoji(
     "A visionary AIML undergraduate specializing in LSTM modeling, federated learning, and full-stack development. Skilled in MLOps, Docker, Kubernetes, AWS, and GCP ☁️🚀"
   ),
-  resumeLink: "https://drive.google.com/file/d/1HlPNef7iN51ztkEjrGm-P-AsbyPd_03b/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1HlPNef7iN51ztkEjrGm-P-AsbyPd_03b/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -40,15 +41,15 @@ const skillsSection = {
     emoji("⚡ Full-stack and frontend development with responsive design")
   ],
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "GCP", fontAwesomeClassname: "fab fa-google" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "MLOps", fontAwesomeClassname: "fas fa-cogs" },
-    { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-network-wired" }
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "GCP", fontAwesomeClassname: "fab fa-google"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "MLOps", fontAwesomeClassname: "fas fa-cogs"},
+    {skillName: "Kubernetes", fontAwesomeClassname: "fas fa-network-wired"}
   ],
   display: true
 };
@@ -74,9 +75,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Frontend/Design", progressPercentage: "90%" },
-    { Stack: "Backend", progressPercentage: "95%" },
-    { Stack: "MLOps & AI", progressPercentage: "95%" }
+    {Stack: "Frontend/Design", progressPercentage: "90%"},
+    {Stack: "Backend", progressPercentage: "95%"},
+    {Stack: "MLOps & AI", progressPercentage: "95%"}
   ],
   displayCodersrank: false
 };
@@ -122,23 +123,35 @@ const bigProjects = {
   projects: [
     {
       projectName: "LSTM Weather Prediction Model",
-      projectDesc: "7-day weather forecast with 85% accuracy using 5+ years of NOAA data.",
+      projectDesc:
+        "7-day weather forecast with 85% accuracy using 5+ years of NOAA data.",
       footerLink: [
-        { name: "View Project", url: "https://drive.google.com/file/d/17ZW63pW70wlrXfd690gNhv9tv0-1vVAv/view" }
+        {
+          name: "View Project",
+          url: "https://drive.google.com/file/d/17ZW63pW70wlrXfd690gNhv9tv0-1vVAv/view"
+        }
       ]
     },
     {
       projectName: "ISL Translation Using Federated Learning",
-      projectDesc: "Sign language translator accepted in IEEE Xplore using federated learning.",
+      projectDesc:
+        "Sign language translator accepted in IEEE Xplore using federated learning.",
       footerLink: [
-        { name: "IEEE Paper", url: "https://drive.google.com/file/d/1p79m6JrEe3yd5FrRocKXX6kDCuJYuc0b/view?usp=sharing" }
+        {
+          name: "IEEE Paper",
+          url: "https://drive.google.com/file/d/1p79m6JrEe3yd5FrRocKXX6kDCuJYuc0b/view?usp=sharing"
+        }
       ]
     },
     {
       projectName: "EV Market Segmentation",
-      projectDesc: "Used K-Means clustering to identify 4 key EV customer segments, reduced client cost by 15%.",
+      projectDesc:
+        "Used K-Means clustering to identify 4 key EV customer segments, reduced client cost by 15%.",
       footerLink: [
-        { name: "View Project", url: "https://drive.google.com/file/d/1t6ouAG9jS2XzFPbXLNXIJgOxXUoEZ2Yx/view" }
+        {
+          name: "View Project",
+          url: "https://drive.google.com/file/d/1t6ouAG9jS2XzFPbXLNXIJgOxXUoEZ2Yx/view"
+        }
       ]
     }
   ],
@@ -155,16 +168,23 @@ const achievementSection = {
       image: "IEEE.png",
       imageAlt: "IEEE Xplore Digital Library Logo",
       footerLink: [
-        { name: "View Paper", url: "https://drive.google.com/file/d/1p79m6JrEe3yd5FrRocKXX6kDCuJYuc0b/view?usp=sharing" }
+        {
+          name: "View Paper",
+          url: "https://drive.google.com/file/d/1p79m6JrEe3yd5FrRocKXX6kDCuJYuc0b/view?usp=sharing"
+        }
       ]
     },
     {
       title: "Agni Vira Space Data Analyst",
-      subtitle: "Certified Space Data Analyst in collaboration with ISRO and Agni Vira.",
+      subtitle:
+        "Certified Space Data Analyst in collaboration with ISRO and Agni Vira.",
       image: "fynns.jpeg",
       imageAlt: "Agni Vira Space Data Analyst Logo",
       footerLink: [
-        { name: "Certificate", url: "https://drive.google.com/file/d/1k3fHowBHGNrIzTdbXT2zR_hFvkuLz6Zm/view?usp=sharing" }
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1k3fHowBHGNrIzTdbXT2zR_hFvkuLz6Zm/view?usp=sharing"
+        }
       ]
     }
   ],
@@ -201,7 +221,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Interested in collaborating or have a cool project idea? Reach out!",
+  subtitle:
+    "Interested in collaborating or have a cool project idea? Reach out!",
   number: "+91 7349726978",
   email_address: "mathiasprajwaldsouza@gmail.com"
 };
